@@ -3,6 +3,7 @@ import 'package:wisata_bandung_test/detail_screen.dart';
 import 'package:wisata_bandung_test/listview.dart';
 import 'package:wisata_bandung_test/Rainbow.dart';
 import 'package:wisata_bandung_test/FirstScreen.dart';
+import 'package:wisata_bandung_test/Mediaquery.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Wisata Bandung',
       theme: ThemeData(),
-      home: FirstScreen(),
+      home: Mediaquery(),
     );
   }
 }
